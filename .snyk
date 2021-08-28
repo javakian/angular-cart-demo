@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - grunt-google-cdn > google-cdn > bower > request > hawk:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request > hawk:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:hoek:20180212':
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:http-signature:20150122':
+    - grunt-google-cdn > google-cdn > bower > request > http-signature:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request > http-signature:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:lodash:20180130':
+    - karma-babel-preprocessor > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-node-inspector > node-inspector > biased-opener > browser-launcher2 > plist > xmlbuilder > lodash:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:mime:20170907':
+    - grunt-google-cdn > google-cdn > bower > request > form-data > mime:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:minimatch:20160620':
+    - grunt-google-cdn > google-cdn > bower > glob > minimatch:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:request:20160119':
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > request:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:semver:20150403':
+    - grunt-google-cdn > google-cdn > semver:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > semver:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > update-notifier > semver-diff > semver:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:shell-quote:20160621':
+    - grunt-google-cdn > google-cdn > bower > shell-quote:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-google-cdn > google-cdn > bower > request > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2021-08-28T06:43:01.605Z'
+  'npm:uglify-js:20151024':
+    - grunt-google-cdn > google-cdn > bower > handlebars > uglify-js:
+        patched: '2021-08-28T06:43:01.605Z'
+    - karma-jade-preprocessor > jade > transformers > uglify-js:
+        patched: '2021-08-28T06:43:01.605Z'
+    - karma-jade-preprocessor > jade > with > uglify-js:
+        patched: '2021-08-28T06:43:01.605Z'
+    - karma-jade-preprocessor > jade > constantinople > uglify-js:
+        patched: '2021-08-28T06:43:01.605Z'
