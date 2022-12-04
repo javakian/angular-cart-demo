@@ -51,7 +51,7 @@
     "grunt-nodemon": "^0.4.0",
     "grunt-angular-templates": "^0.5.4",
     "grunt-dom-munger": "^3.4.0",
-    "grunt-protractor-runner": "^2.0.0",
+    "grunt-protractor-runner": "^4.0.0",
     "grunt-injector": "^0.6.0",
     "grunt-karma": "~0.12.0",
     "grunt-build-control": "^0.6.0",
@@ -89,7 +89,7 @@
     "requirejs": "~2.1.11",
     "phantomjs": "^1.9.18",
     "proxyquire": "^1.0.1",
-    "supertest": "^1.1.0"
+    "supertest": "^2.0.0"
   },
   "engines": {
     "node": "^4.2.3",
