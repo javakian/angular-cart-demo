@@ -1,0 +1,96 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2023-03-24T21:14:17.697Z'
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:hoek:20180212':
+    - phantomjs > request > hawk > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-debug > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-node-inspector > node-inspector > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:http-signature:20150122':
+    - grunt-google-cdn > google-cdn > bower > request > http-signature:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request > http-signature:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:mime:20170907':
+    - grunt-google-cdn > google-cdn > bower > request > form-data > mime:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:minimatch:20160620':
+    - grunt-jscs > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:ms:20170412':
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2023-03-24T21:14:17.697Z'
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:semver:20150403':
+    - grunt-google-cdn > google-cdn > semver:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-google-cdn > google-cdn > bower > semver:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-google-cdn > google-cdn > bower > update-notifier > semver-diff > semver:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2023-03-24T21:14:17.697Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs > request > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-google-cdn > google-cdn > bower > request > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-google-cdn > google-cdn > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2023-03-24T21:14:17.697Z'
