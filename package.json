@@ -89,7 +89,7 @@
     "requirejs": "~2.1.11",
     "phantomjs": "^1.9.18",
     "proxyquire": "^1.0.1",
-    "supertest": "^1.1.0"
+    "supertest": "^7.0.0"
   },
   "engines": {
     "node": "^4.2.3",
